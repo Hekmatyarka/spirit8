@@ -2,11 +2,11 @@
 ![My Face](/img/unknown21.png) 
 > My name is Zalina, 23 y o. I'm from Kyrgyz Republic, Bishkek city.
 1. ### Babaeva Zalina 
-2. ### My contact Info: 
+1. ### My contact Info: 
 * ### Telephone number: +996-550-66-99-87
 * ### [E-mail] : (unikornb@gmail.com)
 * ### [Github] -account: (https://github.com/Hekmatyarka)
-3. ### Skills:
+1. ### Skills:
 * *HTML/CSS*
 * *Java Script*
 * *Illustrator*
@@ -15,7 +15,7 @@
 * *Python*
 * *jQuery*
 * *Vue*
-4. ### Code example: 
+1. ### Code example: 
 ```
 <header>
     <div class="container d-flex justify-content-between align-items-center">
@@ -31,12 +31,12 @@
     </div>
 </header>
 ```
-5. ### Experience: 
+1. ### Experience: 
 *No exp in Front-End development*
-6. ### Education: 
+1. ### Education: 
 * *Alatoo International University, Finance and Credit*
 * *RED MOUSE - Graphic Designer*
 * *IT RUN - Front-End Developer*
-7. ### English :
+1. ### English :
 3.5 | 5
 ------------ | -------------
