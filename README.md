@@ -1,4 +1,4 @@
-# Hello, My Friend!#
+# Hello, My Friend!
 ![My Face](/img/unknown21.png) 
 > My name is Zalina, 23 y o. I'm from Kyrgyz Republic, Bishkek city.
 1. ### Babaeva Zalina 
@@ -32,6 +32,7 @@
 </header>
 ```
 1. ### Experience: 
+*No exp in Front-End development*
 1. ### Education: 
 * *Alatoo International University, Finance and Credit*
 * *RED MOUSE - Graphic Designer*
