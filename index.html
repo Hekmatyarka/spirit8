@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:300,400,600,700&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -14,7 +15,7 @@
 
 <header>
     <div class="container d-flex justify-content-between align-items-center">
-        <a class="logo" href="#">Spirit8</a>
+        <a class="logo" href="#">spirit8</a>
         <nav class="menu">
             <a class="menu-item" href="#">Home</a>
             <a class="menu-item" href="#">About</a>
@@ -31,7 +32,7 @@
         <h1 class="hero-title">WELCOME on <span class="hero-title2">spirit8</span></h1>
         <p class="hero-description">We are a digital agency with years of experience and with extraordinary people</p>
         <a href="#" class="hero-slider">
-            <svg id="Layer" enable-background="new 0 0 64 64" height="50" viewBox="0 0 64 64" width="512"
+            <svg id="Layer" enable-background="new 0 0 64 64" height="12" viewBox="0 0 64 64" width="512"
                  xmlns="http://www.w3.org/2000/svg">
                 <path d="m32 8c-1.104 0-2 .896-2 2v39.899l-14.552-15.278c-.761-.799-2.026-.832-2.828-.069-.8.762-.831 2.027-.069 2.827l16.62 17.449c.756.756 1.76 1.172 2.829 1.172 1.068 0 2.073-.416 2.862-1.207l16.586-17.414c.762-.8.73-2.065-.069-2.827-.799-.763-2.065-.731-2.827.069l-14.552 15.342v-39.963c0-1.104-.896-2-2-2z"/>
             </svg>
@@ -50,23 +51,23 @@
                 <h2 class="about__title">Some words <span class="about__title-color">about us</span></h2>
                 <p class="about__description">We love building and rebuilding brands through our specific skills. Using
                     colour, fonts, and illustration, we brand companies in a way they will never forget.</p>
-                <ul class="about__description">
-                    <li class="about__description-items">
-                        <img src="./img/point.png" alt="">
-                        <p class="about__description-items-text"><span
-                                class="about__description-items-subtext">Mission</span> - We deliver uniqueness and
+                <ul class="about__description-2">
+                    <li class="about__description-items d-flex align-items-center">
+                        <i class="far fa-dot-circle"></i>
+                        <p class="about__description-items-text">
+                            <span class="about__description-items-subtext">Mission</span> - We deliver uniqueness and
                             quality</p>
                     </li>
-                    <li class="about__description-items">
-                        <img src="./img/point.png" alt="">
-                        <p class="about__description-items-text"><span
-                                class="about__description-items-subtext">Skills</span> - Delivering fast and excellent
+                    <li class="about__description-items d-flex align-items-center">
+                        <i class="far fa-dot-circle"></i>
+                        <p class="about__description-items-text">
+                            <span class="about__description-items-subtext">Skills</span> - Delivering fast and excellent
                             results</p>
                     </li>
-                    <li class="about__description-items">
-                        <img src="./img/point.png" alt="">
-                        <p class="about__description-items-text"><span
-                                class="about__description-items-subtext">Clients</span> - Satisfied clients thanks to
+                    <li class="about__description-items d-flex align-items-center">
+                        <i class="far fa-dot-circle"></i>
+                        <p class="about__description-items-text">
+                            <span class="about__description-items-subtext">Clients</span> - Satisfied clients thanks to
                             our experience</p>
                     </li>
                 </ul>
@@ -79,8 +80,49 @@
     </div>
 </section>
 
-<section class="team"></section>
-
+<section id="team">
+    <div class="container">
+        <h2 class="section-title">Meet <span class="section-title-help">our team</span></h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="team-photo">
+                    <img src="" alt="">
+                </div>
+                <h3 class="team-title text-center">Jason Statham</h3>
+                <p class="team-position text-center">Knife designer</p>
+                <p class="team-description text-center">Do not seek to change what has come before. Seek to create that
+                    which has not.</p>
+            </div>
+            <div class="col-3">
+                <div class="team-photo">
+                    <img src="" alt="">
+                </div>
+                <h3 class="team-title text-center">Van Damme</h3>
+                <p class="team-position text-center">No English</p>
+                <p class="team-description text-center">Do not seek to change what has come before. Seek to create that
+                    which has not.</p>
+            </div>
+            <div class="col-3">
+                <div class="team-photo">
+                    <img src="" alt="">
+                </div>
+                <h3 class="team-title text-center">Sylvester Stallone</h3>
+                <p class="team-position text-center">Cigar Lover</p>
+                <p class="team-description text-center">Do not seek to change what has come before. Seek to create that
+                    which has not.</p>
+            </div>
+            <div class="col-3">
+                <div class="team-photo">
+                    <img src="" alt="">
+                </div>
+                <h3 class="team-title text-center">Jet Li</h3>
+                <p class="team-position text-center">I need more money</p>
+                <p class="team-description text-center">Do not seek to change what has come before. Seek to create that
+                    which has not.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section id="services">
     <div class="container">
@@ -174,6 +216,236 @@
     </div>
 </section>
 
+<section id="portfolio">
+    <div class="container">
+        <h2 class="section-title">Take a look at <span class="section-title-help">our work</span></h2>
+        <p class="section-description  portfolio-margin">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de
+            Finibus Bonorum et
+            Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory
+            of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+            amet..", comes from a line in section 1.10.32.</p>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-between">
+                <h4 class="portfolio-title_filter">Filter by type</h4>
+                <ul class="portfolio-filter">
+                    <li class="portfolio-filters">All</li>
+                    <li class="portfolio-filters">Web Design</li>
+                    <li class="portfolio-filters">Mobile design</li>
+                    <li class="portfolio-filters">Photography</li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Mystery.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Mystery.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Mystery.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Mystery.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Limited.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Limited.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Limited.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Limited.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Wed.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Wed.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Wed.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="portfolio-item">
+                    <img class="portfolio-img" src="./img/Wed.png" alt="">
+                    <div class="portfolio-hidden">
+                        <h3 class="portfolio-hidden-title text-center">Trend and fashion</h3>
+                        <p class="portfolio-hidden-description text-center">Website design</p>
+                        <div class="portfolio-hidden-icon d-flex align-items-center justify-content-center">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <div class="container">
+        <h2 class="section-title"><span class="section-title-help">Our clients'</span> testimonials</h2>
+        <p class="testimonials-description text-center">This book is a treatise on the theory of ethics, very popular
+            during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+            section 1.10.32.</p>
+        <p class="testimonials-footer text-center"><span class="testimonials-footer-bold">Dean Martin,</span> CEO Acme
+            Inc.</p>
+    </div>
+</section>
+
+<section id="contacts">
+    <div class="container">
+        <div class="col-8 offset-2"><h2 class="section-title">Feel free to <span
+                class="section-title-help">contact us</span></h2>
+            <p class="section-description">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+                Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                theory
+                of ethics, very popular during the Renaissance.</p></div>
+        <div class="row">
+            <div class="col-4 offset-2">
+                <label for="name">Name<span class="contacts-star">*</span></label>
+                <input class="contacts-name" type="text" name="user" id="name">
+            </div>
+            <div class="col-4">
+                <label for="email">Email address<span class="contacts-star">*</span></label>
+                <input class="contacts-name" type="text" name="user" id="email">
+            </div>
+            <div class="col-8 offset-2">
+                <div class="contacts-items"><label for="message">Message<span class="contacts-star">*</span></label>
+                    <textarea class="contacts-name" name="message" id="message" cols="30" rows="10"></textarea></div>
+            </div>
+            <div class="col-8 offset-2 text-right">
+                <div class="contacts-button"><a href="#" class="contacts-btn">Send</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="row align-items-center d-flex justify-content-between">
+            <p class="footer-title">ALL RIGHTS RESERVED. COPYRIGHT © 2014 <span class="footer-title-help">SPIRIT8</span>
+            </p>
+            <ul class="footer-icons">
+                <li class="footer-icon">
+                    <a class="fab fa-google-plus-g"></a>
+                </li>
+                <li class="footer-icon">
+                    <a class="fab fa-twitter"></a>
+                </li>
+                <li class="footer-icon">
+                    <a class="fab fa-linkedin-in"></a>
+                </li>
+                <li class="footer-icon">
+                    <a class="fab fa-facebook-f"></a>
+                </li>
+                <li class="footer-icon">
+                    <a class="fas fa-basketball-ball"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
 
 <script src="./js/jquery.js"></script>
 <script src="./js/bootstrap.min.js"></script>
