@@ -38,5 +38,5 @@
 * *RED MOUSE - Graphic Designer*
 * *IT RUN - Front-End Developer*
 1. ### English :
-3.5 | 5
+3.5 | 5.5
 ------------ | -------------
