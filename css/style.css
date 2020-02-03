@@ -107,7 +107,7 @@ a, a:hover {
     position: absolute;
     background: #292929;
     height: 3px;
-    width: 0%;
+    width: 0;
     left: 0;
     bottom: -9px;
     transition: 0.3s;
@@ -156,7 +156,10 @@ a, a:hover {
 }
 
 .hero-content {
-    padding-top: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .hero-title {
@@ -178,7 +181,7 @@ a, a:hover {
 .hero-description {
     color: #999999;
     font-size: 20px;
-    line-height: 1;
+    line-height: 2;
     margin-top: 20px;
 }
 
@@ -245,6 +248,14 @@ a, a:hover {
     font-size: 34px;
     font-weight: 700;
     color: #222222;
+}
+@media screen and (max-width: 1210px) {
+    .about__title {
+        font-size: 27px;
+    }
+    .about__title-color {
+        font-size: 27px;
+    }
 }
 
 .about__description {
