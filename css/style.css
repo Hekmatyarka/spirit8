@@ -302,7 +302,9 @@ a, a:hover {
 }
 
 .about__btn:hover {
-    color: #222222;
+    border: 1px solid #fcac45;
+    color: #ffffff;
+    background: #fcac45;
 }
 
 .about__btn-icon {
@@ -433,17 +435,27 @@ a, a:hover {
     cursor: pointer;
     display: inline-block;
     color: #6c6c6c;
+    position: relative;
+    margin-left: 28px;
+}
+.portfolio-filters:not(:last-child):before{
+    content: '';
+    position: absolute;
+    height: 19px;
+    width: 2px;
+    background: #919191;
+    right: -17px;
+    top: 6px;
+    bottom: 0;
 }
 
-.portfolio-filters:hover {
-    font-weight: 600;
+.portfolio-filters:hover{
     color: #222222;
 }
 
-.portfolio-filters:not(:first-child) {
-    border-left: 2px solid #919191;
-    margin-left: 13px;
-    padding-left: 13px;
+.active{
+    color: #222222;
+    font-weight: 600;
 }
 
 .portfolio-item {
@@ -553,7 +565,7 @@ a, a:hover {
     text-transform: uppercase;
     background: #fcac45;
     color: white;
-    padding: 16px 62px;
+    padding: 9px 61px;
     font-size: 16px;
     font-weight: 600;
 }
@@ -596,9 +608,15 @@ a, a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.footer-icon:hover{
+    color: #fcac45;
+    border: 2px solid #fcac45;
 }
 .fab , .fas{
     display: inline-block;
 }
+
 /*####    FOOTER    ####*/
